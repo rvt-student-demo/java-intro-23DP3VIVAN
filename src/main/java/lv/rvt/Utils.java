@@ -10,6 +10,8 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
+import scala.App;
+
 public class Utils {
     private static Path getFilePath(String filename) {
         try {
